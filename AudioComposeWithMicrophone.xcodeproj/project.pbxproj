@@ -16,6 +16,7 @@
 		FB58DF4727FBE708008166A8 /* AudioComposeWithMicrophoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB58DF4627FBE708008166A8 /* AudioComposeWithMicrophoneUITests.swift */; };
 		FB58DF4927FBE708008166A8 /* AudioComposeWithMicrophoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB58DF4827FBE708008166A8 /* AudioComposeWithMicrophoneUITestsLaunchTests.swift */; };
 		FB58DF5627FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB58DF5527FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift */; };
+		FB58DF5F27FC81A5008166A8 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB58DF5E27FC81A5008166A8 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FB58DF4827FBE708008166A8 /* AudioComposeWithMicrophoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioComposeWithMicrophoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FB58DF5327FBE717008166A8 /* AudioComposeWithMicrophoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioComposeWithMicrophoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB58DF5527FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioComposeWithMicrophoneTests.swift; sourceTree = "<group>"; };
+		FB58DF5E27FC81A5008166A8 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +101,9 @@
 		FB29821727FAFB720052A0E8 /* AudioComposeWithMicrophone */ = {
 			isa = PBXGroup;
 			children = (
-				FB29821827FAFB720052A0E8 /* AppDelegate.swift */,
-				FB29821A27FAFB720052A0E8 /* SceneDelegate.swift */,
-				FB29821C27FAFB720052A0E8 /* ViewController.swift */,
-				FB29821E27FAFB720052A0E8 /* Main.storyboard */,
-				FB29822127FAFB780052A0E8 /* Assets.xcassets */,
-				FB29822327FAFB780052A0E8 /* LaunchScreen.storyboard */,
-				FB29822627FAFB780052A0E8 /* Info.plist */,
+				FB58DF6127FC81C6008166A8 /* Delegate */,
+				FB58DF6027FC81B2008166A8 /* App */,
+				FB58DF5C27FC8169008166A8 /* Home */,
 			);
 			path = AudioComposeWithMicrophone;
 			sourceTree = "<group>";
@@ -125,6 +123,43 @@
 				FB58DF5527FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift */,
 			);
 			path = AudioComposeWithMicrophoneTests;
+			sourceTree = "<group>";
+		};
+		FB58DF5C27FC8169008166A8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FB58DF5D27FC8182008166A8 /* Main */,
+				FB29821E27FAFB720052A0E8 /* Main.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FB58DF5D27FC8182008166A8 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FB29821C27FAFB720052A0E8 /* ViewController.swift */,
+				FB58DF5E27FC81A5008166A8 /* ViewModel.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FB58DF6027FC81B2008166A8 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FB29822327FAFB780052A0E8 /* LaunchScreen.storyboard */,
+				FB29822627FAFB780052A0E8 /* Info.plist */,
+				FB29822127FAFB780052A0E8 /* Assets.xcassets */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB58DF6127FC81C6008166A8 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				FB29821827FAFB720052A0E8 /* AppDelegate.swift */,
+				FB29821A27FAFB720052A0E8 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +295,7 @@
 			files = (
 				FB29821D27FAFB720052A0E8 /* ViewController.swift in Sources */,
 				FB29821927FAFB720052A0E8 /* AppDelegate.swift in Sources */,
+				FB58DF5F27FC81A5008166A8 /* ViewModel.swift in Sources */,
 				FB29821B27FAFB720052A0E8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,7 +477,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H4C9PU3KWK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AudioComposeWithMicrophone/Info.plist;
+				INFOPLIST_FILE = AudioComposeWithMicrophone/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -469,7 +505,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H4C9PU3KWK;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = AudioComposeWithMicrophone/Info.plist;
+				INFOPLIST_FILE = AudioComposeWithMicrophone/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
