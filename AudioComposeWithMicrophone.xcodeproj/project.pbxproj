@@ -13,7 +13,27 @@
 		FB29822027FAFB720052A0E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB29821E27FAFB720052A0E8 /* Main.storyboard */; };
 		FB29822227FAFB780052A0E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB29822127FAFB780052A0E8 /* Assets.xcassets */; };
 		FB29822527FAFB780052A0E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB29822327FAFB780052A0E8 /* LaunchScreen.storyboard */; };
+		FB58DF4727FBE708008166A8 /* AudioComposeWithMicrophoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB58DF4627FBE708008166A8 /* AudioComposeWithMicrophoneUITests.swift */; };
+		FB58DF4927FBE708008166A8 /* AudioComposeWithMicrophoneUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB58DF4827FBE708008166A8 /* AudioComposeWithMicrophoneUITestsLaunchTests.swift */; };
+		FB58DF5627FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB58DF5527FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB58DF4A27FBE708008166A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB29820D27FAFB710052A0E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB29821427FAFB710052A0E8;
+			remoteInfo = AudioComposeWithMicrophone;
+		};
+		FB58DF5727FBE717008166A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB29820D27FAFB710052A0E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB29821427FAFB710052A0E8;
+			remoteInfo = AudioComposeWithMicrophone;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FB29821527FAFB720052A0E8 /* AudioComposeWithMicrophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioComposeWithMicrophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +44,29 @@
 		FB29822127FAFB780052A0E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB29822427FAFB780052A0E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB29822627FAFB780052A0E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB58DF4427FBE708008166A8 /* AudioComposeWithMicrophoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioComposeWithMicrophoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB58DF4627FBE708008166A8 /* AudioComposeWithMicrophoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioComposeWithMicrophoneUITests.swift; sourceTree = "<group>"; };
+		FB58DF4827FBE708008166A8 /* AudioComposeWithMicrophoneUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioComposeWithMicrophoneUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FB58DF5327FBE717008166A8 /* AudioComposeWithMicrophoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AudioComposeWithMicrophoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB58DF5527FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioComposeWithMicrophoneTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FB29821227FAFB710052A0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB58DF4127FBE708008166A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB58DF5027FBE717008166A8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				FB29821727FAFB720052A0E8 /* AudioComposeWithMicrophone */,
+				FB58DF4527FBE708008166A8 /* AudioComposeWithMicrophoneUITests */,
+				FB58DF5427FBE717008166A8 /* AudioComposeWithMicrophoneTests */,
 				FB29821627FAFB720052A0E8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				FB29821527FAFB720052A0E8 /* AudioComposeWithMicrophone.app */,
+				FB58DF4427FBE708008166A8 /* AudioComposeWithMicrophoneUITests.xctest */,
+				FB58DF5327FBE717008166A8 /* AudioComposeWithMicrophoneTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -65,6 +108,23 @@
 				FB29822627FAFB780052A0E8 /* Info.plist */,
 			);
 			path = AudioComposeWithMicrophone;
+			sourceTree = "<group>";
+		};
+		FB58DF4527FBE708008166A8 /* AudioComposeWithMicrophoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB58DF4627FBE708008166A8 /* AudioComposeWithMicrophoneUITests.swift */,
+				FB58DF4827FBE708008166A8 /* AudioComposeWithMicrophoneUITestsLaunchTests.swift */,
+			);
+			path = AudioComposeWithMicrophoneUITests;
+			sourceTree = "<group>";
+		};
+		FB58DF5427FBE717008166A8 /* AudioComposeWithMicrophoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB58DF5527FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift */,
+			);
+			path = AudioComposeWithMicrophoneTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +147,42 @@
 			productReference = FB29821527FAFB720052A0E8 /* AudioComposeWithMicrophone.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FB58DF4327FBE708008166A8 /* AudioComposeWithMicrophoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB58DF4E27FBE708008166A8 /* Build configuration list for PBXNativeTarget "AudioComposeWithMicrophoneUITests" */;
+			buildPhases = (
+				FB58DF4027FBE708008166A8 /* Sources */,
+				FB58DF4127FBE708008166A8 /* Frameworks */,
+				FB58DF4227FBE708008166A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB58DF4B27FBE708008166A8 /* PBXTargetDependency */,
+			);
+			name = AudioComposeWithMicrophoneUITests;
+			productName = AudioComposeWithMicrophoneUITests;
+			productReference = FB58DF4427FBE708008166A8 /* AudioComposeWithMicrophoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FB58DF5227FBE717008166A8 /* AudioComposeWithMicrophoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB58DF5927FBE717008166A8 /* Build configuration list for PBXNativeTarget "AudioComposeWithMicrophoneTests" */;
+			buildPhases = (
+				FB58DF4F27FBE717008166A8 /* Sources */,
+				FB58DF5027FBE717008166A8 /* Frameworks */,
+				FB58DF5127FBE717008166A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB58DF5827FBE717008166A8 /* PBXTargetDependency */,
+			);
+			name = AudioComposeWithMicrophoneTests;
+			productName = AudioComposeWithMicrophoneTests;
+			productReference = FB58DF5327FBE717008166A8 /* AudioComposeWithMicrophoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +195,14 @@
 				TargetAttributes = {
 					FB29821427FAFB710052A0E8 = {
 						CreatedOnToolsVersion = 13.0;
+					};
+					FB58DF4327FBE708008166A8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FB29821427FAFB710052A0E8;
+					};
+					FB58DF5227FBE717008166A8 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = FB29821427FAFB710052A0E8;
 					};
 				};
 			};
@@ -116,6 +220,8 @@
 			projectRoot = "";
 			targets = (
 				FB29821427FAFB710052A0E8 /* AudioComposeWithMicrophone */,
+				FB58DF4327FBE708008166A8 /* AudioComposeWithMicrophoneUITests */,
+				FB58DF5227FBE717008166A8 /* AudioComposeWithMicrophoneTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +234,20 @@
 				FB29822527FAFB780052A0E8 /* LaunchScreen.storyboard in Resources */,
 				FB29822227FAFB780052A0E8 /* Assets.xcassets in Resources */,
 				FB29822027FAFB720052A0E8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB58DF4227FBE708008166A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB58DF5127FBE717008166A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,7 +264,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FB58DF4027FBE708008166A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB58DF4927FBE708008166A8 /* AudioComposeWithMicrophoneUITestsLaunchTests.swift in Sources */,
+				FB58DF4727FBE708008166A8 /* AudioComposeWithMicrophoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB58DF4F27FBE717008166A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB58DF5627FBE717008166A8 /* AudioComposeWithMicrophoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB58DF4B27FBE708008166A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB29821427FAFB710052A0E8 /* AudioComposeWithMicrophone */;
+			targetProxy = FB58DF4A27FBE708008166A8 /* PBXContainerItemProxy */;
+		};
+		FB58DF5827FBE717008166A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB29821427FAFB710052A0E8 /* AudioComposeWithMicrophone */;
+			targetProxy = FB58DF5727FBE717008166A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FB29821E27FAFB720052A0E8 /* Main.storyboard */ = {
@@ -338,6 +488,96 @@
 			};
 			name = Release;
 		};
+		FB58DF4C27FBE708008166A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4C9PU3KWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SahanRv.AudioComposeWithMicrophoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioComposeWithMicrophone;
+			};
+			name = Debug;
+		};
+		FB58DF4D27FBE708008166A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4C9PU3KWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SahanRv.AudioComposeWithMicrophoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AudioComposeWithMicrophone;
+			};
+			name = Release;
+		};
+		FB58DF5A27FBE717008166A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4C9PU3KWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SahanRv.AudioComposeWithMicrophoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioComposeWithMicrophone.app/AudioComposeWithMicrophone";
+			};
+			name = Debug;
+		};
+		FB58DF5B27FBE717008166A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4C9PU3KWK;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SahanRv.AudioComposeWithMicrophoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AudioComposeWithMicrophone.app/AudioComposeWithMicrophone";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -355,6 +595,24 @@
 			buildConfigurations = (
 				FB29822A27FAFB780052A0E8 /* Debug */,
 				FB29822B27FAFB780052A0E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB58DF4E27FBE708008166A8 /* Build configuration list for PBXNativeTarget "AudioComposeWithMicrophoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB58DF4C27FBE708008166A8 /* Debug */,
+				FB58DF4D27FBE708008166A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB58DF5927FBE717008166A8 /* Build configuration list for PBXNativeTarget "AudioComposeWithMicrophoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB58DF5A27FBE717008166A8 /* Debug */,
+				FB58DF5B27FBE717008166A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
