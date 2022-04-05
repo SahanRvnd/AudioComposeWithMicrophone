@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-TB-PLk">
-                                <rect key="frame" x="40" y="410" width="334" height="76"/>
+                                <rect key="frame" x="40" y="389" width="334" height="118"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fmD-gc-lz9">
                                         <rect key="frame" x="0.0" y="0.0" width="334" height="34"/>
@@ -30,8 +30,18 @@
                                             <action selector="didClickRecord:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QAt-2k-HZX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRc-SS-72t">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YHy-rN-ih4">
                                         <rect key="frame" x="0.0" y="42" width="334" height="34"/>
+                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="33l-qV-yzg"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="WLs-cf-e2m"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="Tap-To-Stop"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRc-SS-72t">
+                                        <rect key="frame" x="0.0" y="84" width="334" height="34"/>
                                         <color key="backgroundColor" red="0.47186857459999998" green="0.76969593759999999" blue="0.77487295869999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="34" id="2F2-6j-UxS"/>

@@ -101,9 +101,12 @@
 		FB29821727FAFB720052A0E8 /* AudioComposeWithMicrophone */ = {
 			isa = PBXGroup;
 			children = (
-				FB58DF6127FC81C6008166A8 /* Delegate */,
 				FB58DF6027FC81B2008166A8 /* App */,
-				FB58DF5C27FC8169008166A8 /* Home */,
+				FB58DF6127FC81C6008166A8 /* Delegate */,
+				FB58DF5C27FC8169008166A8 /* Development */,
+				FB58DF6427FC8300008166A8 /* Utilities */,
+				FB58DF6327FC82F8008166A8 /* Helper */,
+				FB58DF6227FC82EC008166A8 /* Extensions */,
 			);
 			path = AudioComposeWithMicrophone;
 			sourceTree = "<group>";
@@ -125,13 +128,13 @@
 			path = AudioComposeWithMicrophoneTests;
 			sourceTree = "<group>";
 		};
-		FB58DF5C27FC8169008166A8 /* Home */ = {
+		FB58DF5C27FC8169008166A8 /* Development */ = {
 			isa = PBXGroup;
 			children = (
-				FB58DF5D27FC8182008166A8 /* Main */,
 				FB29821E27FAFB720052A0E8 /* Main.storyboard */,
+				FB58DF5D27FC8182008166A8 /* Main */,
 			);
-			path = Home;
+			path = Development;
 			sourceTree = "<group>";
 		};
 		FB58DF5D27FC8182008166A8 /* Main */ = {
@@ -160,6 +163,27 @@
 				FB29821A27FAFB720052A0E8 /* SceneDelegate.swift */,
 			);
 			path = Delegate;
+			sourceTree = "<group>";
+		};
+		FB58DF6227FC82EC008166A8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FB58DF6327FC82F8008166A8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		FB58DF6427FC8300008166A8 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
