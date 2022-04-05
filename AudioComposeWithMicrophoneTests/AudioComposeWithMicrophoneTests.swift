@@ -21,7 +21,7 @@ class AudioComposeWithMicrophoneTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
-        let i = 0
+        let i = 2
         
         XCTAssert(i == 0, "i supporst to be 0")
     }
